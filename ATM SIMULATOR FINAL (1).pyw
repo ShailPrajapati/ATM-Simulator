@@ -96,7 +96,7 @@ def CheckBalance():
     Label(root2,text=s).pack()
     f.seek(0)
     Button(root2, text="GO BACK", command=Destroy).pack()
-    Button(root2, text="CLOSE", command=Exit).pack
+    Button(root2, text="CLOSE", command=Exit).pack()
     
     root2.mainloop()
 
@@ -120,7 +120,7 @@ def ChangePIN():
             f.close()
             Label(root2, text="THE SECURITY PIN HAS BEEN SUCCESSFULLY UPDATED!").pack()
             Button(root2, text="GO BACK", command=Destroy).pack()
-            Button(root2, text="CLOSE", command=Exit).pack
+            Button(root2, text="CLOSE", command=Exit).pack()
 
 
         if int(pin.get()) != pin_:                                               # comparing the user provided PIN with pre-stored PIN 
